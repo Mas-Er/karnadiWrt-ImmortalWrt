@@ -66,7 +66,7 @@ on:
 
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
-  REPO_BRANCH: openwrt-21.02
+  REPO_BRANCH: master
   FEEDS_CONF: router-config/immortalwrt-21.02/feeds.conf.default
   CONFIG_FILE: router-config/immortalwrt-21.02/config
   DIY_P1_SH: router-config/immortalwrt-21.02/diy-part1.sh
