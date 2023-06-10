@@ -88,7 +88,7 @@ build_openwrt=(
     "s905x2" "s905x2-km3"
     "s912" "s912-m8s"
     "s905d" "s905d-ki" "s905l2"
-    "s905x"
+    "s905x" "s905x-t95"
     "s905w"
     "s905"
     "s905l3a"
