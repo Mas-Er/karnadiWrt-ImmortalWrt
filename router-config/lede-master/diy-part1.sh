@@ -18,6 +18,7 @@ rm -rf feeds/luci/themes/luci-theme-netgear
 rm -rf feeds/luci/applications/luci-app-netdata
 rm -rf feeds/luci/applications/luci-app-wrtbwmon
 rm -rf feeds/luci/applications/luci-app-dockerman
+rm -rf package/helloworld
 
 # 添加额外软件包
 git clone --depth 1 https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhome
@@ -27,6 +28,7 @@ git clone --depth 1 https://github.com/esirplayground/luci-app-poweroff package/
 git clone --depth 1 https://github.com/destan19/OpenAppFilter package/OpenAppFilter
 git clone --depth 1 https://github.com/Jason6111/luci-app-netdata package/luci-app-netdata
 git clone --depth 1 -b lede https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
+git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-filebrowser package/luci-app-filebrowser
 svn co https://github.com/lisaac/luci-app-dockerman/trunk/applications/luci-app-dockerman package/luci-app-dockerman
 svn co https://github.com/immortalwrt/luci/branches/openwrt-18.06/applications/luci-app-eqos package/luci-app-eqos
